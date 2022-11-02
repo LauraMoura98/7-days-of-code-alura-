@@ -1,0 +1,45 @@
+.rodape{
+    margin-bottom: 5rem;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter__titulo{
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin: 1.5rem 0;
+}
+.newsletter__subtitulo{
+    font-weight: 400;
+    color: var(--cinza);
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.formulario__caixa{
+    width: 25%;
+    border: solid 0.125rem rgba(16, 24, 40, 0.123);
+    padding: .6rem;
+    border-radius: .3rem;
+    margin: 0 1rem;
+}
+.formulario__botao{
+    color: var(--bg-color);
+    background-color: var(--vinho);
+    border-radius: .3rem;
+    padding: .6rem;
+}
+.copyright{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cinza);
+    margin: 1.5rem 0;
+}
